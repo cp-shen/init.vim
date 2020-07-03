@@ -56,7 +56,7 @@ set updatetime=300
 set shortmess+=c
 
 " always show signcolumn
-set signcolumn=auto
+set signcolumn=yes
 
 "turn off bell
 set belloff=all
