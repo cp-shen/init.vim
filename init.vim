@@ -12,3 +12,4 @@ execute "source" s:conf_dir . "misc.vim"
 execute "source" s:conf_dir . "keys.vim"
 execute "source" s:conf_dir . "color.vim"
 execute "source" s:conf_dir . "commands.vim"
+
