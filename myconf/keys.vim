@@ -68,7 +68,7 @@ nnoremap <Leader><Space> :History<CR>
 nnoremap <Leader>nh :noh<CR>
 
 "save file
-nnoremap <A-s> :w<CR>
+nnoremap <C-s> :w<CR>
 
 "close
 nnoremap <A-q> :bd<CR>
