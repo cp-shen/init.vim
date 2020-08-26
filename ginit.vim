@@ -1,6 +1,6 @@
 if exists('g:fvim_loaded')
     " good old 'set guifont' compatibility
-    set guifont=JetBrains\ Mono:h15
+    set guifont=JetBrains\ Mono:h16
 	" Iosevka\ Slab:h16
     " Ctrl-ScrollWheel for zooming in/out
     nnoremap <silent> <C-ScrollWheelUp> :set guifont=+<CR>
