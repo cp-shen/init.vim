@@ -28,6 +28,9 @@ if exists('g:fvim_loaded')
 
     " Font debugging -- draw bounds around each glyph
     " FVimFontDrawBounds v:true
+
+    " Title bar tweaks
+    FVimCustomTitleBar v:false
 else
 	Guifont! JetBrains\ Mono:h12
 	GuiTabline 0
