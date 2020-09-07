@@ -148,7 +148,7 @@ endfunction
 
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>rg :Rg<CR>
-nnoremap <A-f> :Neoformat<CR>
+nnoremap <C-A-l> :Neoformat<CR>
 nnoremap <leader>nf :Neoformat<CR>
 
 " Using CocList
