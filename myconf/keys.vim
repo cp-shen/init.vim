@@ -6,8 +6,9 @@ nnoremap zz za
 map <Space> <Leader>
 
 "bind key to toggle NERDTree
-nnoremap <A-1> :NERDTreeFocus<CR>
-nnoremap <A-2> :NERDTreeToggle<CR>
+"nnoremap <A-1> :NERDTreeFocus<CR>
+"nnoremap <A-2> :NERDTreeToggle<CR>
+:nmap <space>e :CocCommand explorer<CR>
 
 "set key to show full path
 nnoremap <A-3> :echo expand('%:p')<CR>
