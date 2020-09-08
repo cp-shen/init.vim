@@ -37,3 +37,11 @@ else
 	GuiPopupmenu 0
 
 endif
+
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=None guibg=#222222 guifg=None
+hi Cursor guifg=white guibg=steelblue
+hi iCursor guifg=white guibg=white
+
+set guicursor=n-v-c-sm:block-Cursor-blinkon0
+set guicursor+=i-ci-ve:ver25-iCursor-blinkon0
+set guicursor+=r-cr-o:hor20-Cursor-blinkon0

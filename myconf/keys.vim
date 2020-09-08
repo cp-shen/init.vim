@@ -6,9 +6,9 @@ nnoremap zz za
 map <Space> <Leader>
 
 "bind key to toggle NERDTree
-"nnoremap <A-1> :NERDTreeFocus<CR>
-"nnoremap <A-2> :NERDTreeToggle<CR>
-nmap <A-1> :CocCommand explorer<CR>
+nnoremap <A-1> :NERDTreeFocus<CR>
+nnoremap <A-2> :NERDTreeToggle<CR>
+"nmap <A-1> :CocCommand explorer<CR>
 
 "set key to show full path
 nnoremap <A-3> :echo expand('%:p')<CR>
@@ -23,6 +23,11 @@ nnoremap <Leader>ct :checktime<CR>
 
 "reload config file
 nnoremap <Leader>so :so $MYVIMRC<CR>
+
+function! s:load_ginit()
+    execute "source" stdpath('config')."/ginit.vim"
+endfunction
+nnoremap <Leader>gso :call <SID>load_ginit()<CR>
 
 "bind keys for deoplete menu navigation
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : "\<C-j>"

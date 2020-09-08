@@ -62,7 +62,7 @@ set signcolumn=yes
 set belloff=all
 
 "highlight current line
-"set cursorline
+set cursorline
 "hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 "highlight current column
