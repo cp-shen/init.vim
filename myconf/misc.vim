@@ -1,3 +1,4 @@
+set noundofile
 set langmenu=en_US
 set ruler
 set number
@@ -78,3 +79,4 @@ syntax on
 
 " Add coc status line support, for integration with other plugin, checkout `:h coc-status`
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
