@@ -62,7 +62,11 @@ nnoremap <Leader>tp :tabprevious<CR>
 nnoremap <Leader>tn :tabnext<CR>
 
 "tab operation
-nnoremap <Leader>tt :tabnew term://zsh<CR>a
+if has('win32')
+    nnoremap <Leader>tt :tabnew term://powershell.exe<CR>a
+else
+    nnoremap <Leader>tt :tabnew term://zsh<CR>a
+endif
 nnoremap <Leader>td :tabclose<CR>
 
 "navigation of buffer

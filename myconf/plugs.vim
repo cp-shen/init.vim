@@ -12,6 +12,17 @@ Plug 'scrooloose/nerdtree' "file tree
 Plug 'tyru/caw.vim' "comment tool
 "Plug 'gauteh/vim-cppman'
 
+Plug 'vimlab/split-term.vim'
+    set splitright
+    set splitbelow
+    let g:split_term_vertical = 1
+    let g:disable_key_mappings = 1
+    if has('win32')
+        let g:split_term_default_shell = "powershell.exe"
+    else
+        let g:split_term_default_shell = "zsh"
+    endif
+
 Plug 'terryma/vim-multiple-cursors'
     let g:multi_cursor_use_default_mapping = 0
     " Default mapping
