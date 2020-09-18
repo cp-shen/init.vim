@@ -15,7 +15,7 @@ Plug 'tyru/caw.vim' "comment tool
 Plug 'vimlab/split-term.vim'
     set splitright
     set splitbelow
-    let g:split_term_vertical = 1
+    " let g:split_term_vertical = 1
     let g:disable_key_mappings = 1
     if has('win32')
         let g:split_term_default_shell = "powershell.exe"
