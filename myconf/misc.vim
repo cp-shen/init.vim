@@ -22,7 +22,7 @@ set guioptions-=L
 "encoding
 set encoding=utf-8
 "new line = \n
-set fileformat=unix
+"set fileformat=unix
 "set tab = 4 spaces
 set tabstop=4 shiftwidth=4 expandtab
 "match uppercase when search by lower
